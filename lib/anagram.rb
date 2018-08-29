@@ -19,6 +19,9 @@ def match(anagrams)
   matched_array = sorted_split_a.collect.with_index{|letters, index| letters==splitted_w ? anagrams[index] : [] }
   matched_array.flatten
   
+  
+  #THIS CAN BE MUCH SHORTER
+  #
 end
 
 end
