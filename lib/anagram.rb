@@ -20,8 +20,8 @@ def match(anagrams)
   matched_array.flatten
   
   
-  #THIS CAN BE MUCH SHORTER
-  #
+  #THIS CAN BE MUCH SHORTER... from now on after finishing review code to shorten
+  #array.select {|x| x.split("").sort == @name.split("").sort}
 end
 
 end
